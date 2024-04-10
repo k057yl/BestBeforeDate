@@ -1,0 +1,62 @@
+.mainmenu_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(197, 29, 29, 0);
+}
+
+.header_background {
+    background-color: rgb(174, 162, 162);
+}
+
+.header_left_container {
+    flex-grow: 1;
+    height: auto;
+    min-height: auto;
+    width: 360px;
+    min-width: 360px;
+    flex-direction: row;
+}
+
+.header_right_container {
+    width: 360px;
+    min-width: 360px;
+    flex-grow: 1;
+}
+
+.header_center_container {
+    flex-grow: 1;
+    width: 360px;
+    min-width: 360px;
+}
+
+.header_main {
+    flex-grow: 0;
+    align-self: center;
+    width: 100%;
+    height: 15%;
+    min-height: 15%;
+    min-width: 100%;
+    flex-direction: row;
+}
+
+.header_left_container_exit_background {
+    flex-grow: 1;
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    background-color: rgb(125, 123, 123);
+}
+
+.header_left_container_exit_image {
+}
+
+.header_left_container_back_background {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(125, 123, 123);
+    align-self: center;
+}
+
+.header_left_container_back_image {
+}

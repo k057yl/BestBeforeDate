@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/BestMenu.uss?fileID=7433441132597879392&amp;guid=346bd7e7bdaa8774da6f5abff180bca6&amp;type=3#BestMenu" />
+    <ui:VisualElement name="MainMenu" class="mainmenu_background">
+        <ui:VisualElement name="Header" class="header_background header_main">
+            <ui:VisualElement name="MenuLeftContainer" class="header_left_container" style="flex-grow: 1;">
+                <ui:VisualElement name="Exit" class="header_left_container_exit_background" style="flex-grow: 1;" />
+                <ui:VisualElement name="Back" class="header_left_container_back_background" style="flex-grow: 1; display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MenuCenterContainer" class="header_center_container" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MenuRightContainer" class="header_right_container" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
