@@ -1,28 +1,60 @@
+using UI.Interfaces;
 using UnityEngine.UIElements;
+using Zenject;
 
-public class ScreenBase : IScreen
+namespace UI.Base
 {
-    protected VisualElement _rootElement;
-    protected VisualElement _screenElement;
-    
-    
-    public void Dispose()
+    public class ScreenBase : IScreen
     {
-        throw new System.NotImplementedException();
-    }
+        protected ScreenController _screenController;
+        
+        protected VisualElement _rootElement;
+        protected VisualElement _screenElement;
 
-    public void Show()
-    {
-        throw new System.NotImplementedException();
-    }
 
-    public void ShowSilent()
-    {
-        throw new System.NotImplementedException();
-    }
+        [Inject]
+        public void Initialize(UIDocument uiDocument)
+        {
+            _rootElement = uiDocument.rootVisualElement;
+            OnInitialized();
+        }
 
-    public void Hide()
-    {
-        throw new System.NotImplementedException();
+        public virtual void OnInitialized()
+        {
+            Hide();
+        }
+
+        [Inject]
+        public void Initialize(ScreenController screenController)
+        {
+            if (_screenController != null) return;
+            _screenController = screenController;
+        }
+
+        public void Dispose()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Show()
+        {
+            PreShow();
+        }
+        
+        private void PreShow()
+        {
+            if (_screenElement != null)
+            {
+                _screenElement.style.display = DisplayStyle.Flex;
+            }
+        }
+
+        public virtual void Hide()
+        {
+            if (_screenElement != null)
+            {
+                _screenElement.style.display = DisplayStyle.None;
+            }
+        }
     }
 }

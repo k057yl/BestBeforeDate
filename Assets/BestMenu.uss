@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(197, 29, 29, 0);
+    background-color: rgba(137, 72, 72, 0.44);
 }
 
 .header_background {
@@ -46,6 +46,11 @@
     height: 180px;
     align-self: center;
     background-color: rgb(125, 123, 123);
+    max-height: 180px;
+    max-width: 180px;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-left: 90px;
 }
 
 .header_left_container_exit_image {
@@ -56,7 +61,21 @@
     height: 180px;
     background-color: rgb(125, 123, 123);
     align-self: center;
+    max-width: 180px;
+    max-height: 180px;
+    margin-left: 90px;
 }
 
 .header_left_container_back_image {
+}
+
+.photomunu_background {
+    background-color: rgba(111, 142, 102, 0.55);
+}
+
+.menu_text_label {
+    -unity-text-align: middle-center;
+    align-self: center;
+    flex-grow: 1;
+    font-size: 60px;
 }
