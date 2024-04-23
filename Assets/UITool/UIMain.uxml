@@ -1,25 +1,45 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/BestMenu.uss?fileID=7433441132597879392&amp;guid=346bd7e7bdaa8774da6f5abff180bca6&amp;type=3#BestMenu" />
-    <ui:VisualElement name="MainMenu" class="mainmenu_background" style="display: none;">
+    <ui:VisualElement name="MainMenu" class="mainmenu_background" style="display: flex;">
         <ui:VisualElement name="Header" class="header_background header_main">
             <ui:VisualElement name="MenuLeftContainer" class="header_left_container" style="flex-grow: 1; display: flex;">
-                <ui:VisualElement name="Exit" class="header_left_container_exit_background" style="flex-grow: 1; display: flex;" />
-                <ui:VisualElement name="Back" class="header_left_container_back_background" style="flex-grow: 1; display: none;" />
+                <ui:VisualElement name="Back" class="header_left_container_back_background" style="flex-grow: 1; display: flex;">
+                    <ui:VisualElement name="Icon" class="header_left_container_back_image" style="flex-grow: 1;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="MenuCenterContainer" class="header_center_container" style="flex-grow: 1;">
                 <ui:Label tabindex="-1" text="MENU" display-tooltip-when-elided="true" class="menu_text_label" />
             </ui:VisualElement>
-            <ui:VisualElement name="MenuRightContainer" class="header_right_container" style="flex-grow: 1;" />
+            <ui:VisualElement name="MenuRightContainer" class="header_right_container" style="flex-grow: 1;">
+                <ui:VisualElement name="Exit" class="header_left_container_exit_background" style="flex-grow: 1; display: flex;">
+                    <ui:VisualElement name="Icon" class="header_left_container_exit_image" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MainField" class="mainmenu_field">
+            <ui:VisualElement name="CameraContainer" class="mainmenu_camera_container">
+                <ui:VisualElement name="CameraDisplay" class="mainmenu_camera_display" style="display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="OpenCamera" style="flex-grow: 0; width: 200px; height: 200px; align-self: center; margin-top: 100px; background-color: rgb(255, 0, 168);">
+                <ui:Label tabindex="-1" text="Camera" display-tooltip-when-elided="true" style="align-self: center; font-size: 42px; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TakePhoto" style="flex-grow: 0; width: 200px; height: 200px; align-self: center; margin-top: 100px; background-color: rgb(0, 255, 199);">
+                <ui:Label tabindex="-1" text="Take&#10;Photo" display-tooltip-when-elided="true" style="align-self: center; font-size: 42px; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="PhotoMenu" class="photomunu_background" style="flex-grow: 1; display: none;">
         <ui:VisualElement name="Header" class="header_background header_main">
             <ui:VisualElement name="MenuLeftContainer" class="header_left_container" style="flex-grow: 1; display: flex;">
-                <ui:VisualElement name="Exit" class="header_left_container_exit_background" style="flex-grow: 1; display: flex;" />
-                <ui:VisualElement name="Back" class="header_left_container_back_background" style="flex-grow: 1; display: none;" />
+                <ui:VisualElement name="Exit" class="header_left_container_exit_background" style="flex-grow: 1; display: flex;">
+                    <ui:VisualElement name="Icon" class="header_left_container_exit_image" style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Back" class="header_left_container_back_background" style="flex-grow: 1; display: flex;">
+                    <ui:VisualElement name="Icon" class="header_left_container_back_image" style="flex-grow: 1;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="MenuCenterContainer" class="header_center_container" style="flex-grow: 1;">
-                <ui:Label tabindex="-1" text="PHOTO" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="PHOTO" display-tooltip-when-elided="true" class="menu_text_label" />
             </ui:VisualElement>
             <ui:VisualElement name="MenuRightContainer" class="header_right_container" style="flex-grow: 1;" />
         </ui:VisualElement>

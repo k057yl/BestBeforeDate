@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: c38618c5fd7b804448b458f0535479c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1286789587408939759
+    second: LogoFirst_0
+  - first:
+      213: 7201978738667939222
+    second: LogoFirst_1
+  - first:
+      213: 7173702189981467284
+    second: LogoFirst_2
+  - first:
+      213: -1129733453923106292
+    second: LogoFirst_3
+  - first:
+      213: -2007315029984202969
+    second: LogoFirst_4
+  - first:
+      213: 53188590408041675
+    second: LogoFirst_5
+  - first:
+      213: 3948786586104045907
+    second: LogoFirst_6
+  - first:
+      213: 2667290357225654043
+    second: LogoFirst_7
+  - first:
+      213: -364987023253678921
+    second: LogoFirst_8
+  - first:
+      213: 7977896921147623783
+    second: LogoFirst_9
+  - first:
+      213: -3703895700599529718
+    second: LogoFirst_10
+  - first:
+      213: -1310751644619973948
+    second: LogoFirst_11
+  - first:
+      213: 2369446214008867093
+    second: LogoFirst_12
+  - first:
+      213: 3690584920347224724
+    second: LogoFirst_13
+  - first:
+      213: -4063864220067150824
+    second: LogoFirst_14
+  - first:
+      213: -2441412264738273922
+    second: LogoFirst_15
+  - first:
+      213: 8731646557498403422
+    second: LogoFirst_16
+  - first:
+      213: 3811454802134471644
+    second: LogoFirst_17
+  - first:
+      213: 8255459383886855583
+    second: LogoFirst_18
+  - first:
+      213: -5657846596204509129
+    second: LogoFirst_19
+  - first:
+      213: -4625953311909181072
+    second: LogoFirst_20
+  - first:
+      213: 5777359346313014699
+    second: LogoFirst_21
+  - first:
+      213: -6203081632043267787
+    second: LogoFirst_22
+  - first:
+      213: 3537149652105240086
+    second: LogoFirst_23
+  - first:
+      213: 1127627288862173311
+    second: LogoFirst_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoFirst_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 557
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea6e22ef489bd110800000000000000
+      internalID: 1286789587408939759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 563
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695e73e418192f360800000000000000
+      internalID: 7201978738667939222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 565
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4928946422c1e8360800000000000000
+      internalID: 7173702189981467284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 608
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02c904c8616250f0800000000000000
+      internalID: -1129733453923106292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 552
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f2d7d8d959424e0800000000000000
+      internalID: -2007315029984202969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 552
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4006dbdb6fcb000800000000000000
+      internalID: 53188590408041675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 563
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3512f8e7a78ecc630800000000000000
+      internalID: 3948786586104045907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 563
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17824fa27e140520800000000000000
+      internalID: 2667290357225654043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 565
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b456537c3e4feaf0800000000000000
+      internalID: -364987023253678921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 562
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769cfa72bfe27be60800000000000000
+      internalID: 7977896921147623783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 565
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f1ba00c7e199cc0800000000000000
+      internalID: -3703895700599529718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 564
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cadaa9e2564fcde0800000000000000
+      internalID: -1310751644619973948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 565
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519846c17c6f1e020800000000000000
+      internalID: 2369446214008867093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 563
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aa5b67e67973330800000000000000
+      internalID: 3690584920347224724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 563
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8144a7be5014a97c0800000000000000
+      internalID: -4063864220067150824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 477
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e754ef9fa7c5e1ed0800000000000000
+      internalID: -2441412264738273922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 476
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a64f3284a0d2970800000000000000
+      internalID: 8731646557498403422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 478
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd39ea6d2f105e430800000000000000
+      internalID: 3811454802134471644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_18
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 535
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dbd320298419270800000000000000
+      internalID: 8255459383886855583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 478
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c39f4f7a4b71b0800000000000000
+      internalID: -5657846596204509129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 479
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0798c10e8ff4dcfb0800000000000000
+      internalID: -4625953311909181072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 477
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad25c837bd4d2050800000000000000
+      internalID: 5777359346313014699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 478
+        width: 9
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5398f49fe1a3ae9a0800000000000000
+      internalID: -6203081632043267787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_23
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 461
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e11233eda761130800000000000000
+      internalID: 3537149652105240086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoFirst_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 479
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78aaa77b0326af00800000000000000
+      internalID: 1127627288862173311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LogoFirst_0: 1286789587408939759
+      LogoFirst_1: 7201978738667939222
+      LogoFirst_10: -3703895700599529718
+      LogoFirst_11: -1310751644619973948
+      LogoFirst_12: 2369446214008867093
+      LogoFirst_13: 3690584920347224724
+      LogoFirst_14: -4063864220067150824
+      LogoFirst_15: -2441412264738273922
+      LogoFirst_16: 8731646557498403422
+      LogoFirst_17: 3811454802134471644
+      LogoFirst_18: 8255459383886855583
+      LogoFirst_19: -5657846596204509129
+      LogoFirst_2: 7173702189981467284
+      LogoFirst_20: -4625953311909181072
+      LogoFirst_21: 5777359346313014699
+      LogoFirst_22: -6203081632043267787
+      LogoFirst_23: 3537149652105240086
+      LogoFirst_24: 1127627288862173311
+      LogoFirst_3: -1129733453923106292
+      LogoFirst_4: -2007315029984202969
+      LogoFirst_5: 53188590408041675
+      LogoFirst_6: 3948786586104045907
+      LogoFirst_7: 2667290357225654043
+      LogoFirst_8: -364987023253678921
+      LogoFirst_9: 7977896921147623783
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

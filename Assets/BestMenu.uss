@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(137, 72, 72, 0.44);
+    background-color: rgba(137, 72, 72, 0);
 }
 
 .header_background {
@@ -22,6 +22,7 @@
     width: 360px;
     min-width: 360px;
     flex-grow: 1;
+    align-self: center;
 }
 
 .header_center_container {
@@ -54,6 +55,10 @@
 }
 
 .header_left_container_exit_image {
+    background-image: url('project://database/Assets/Sprites/Exit.png?fileID=-1922979618149193216&guid=cbc0eb4eb4af9744da81a56984d83b51&type=3#Exit_0');
+    align-self: auto;
+    width: 200%;
+    height: 100%;
 }
 
 .header_left_container_back_background {
@@ -67,6 +72,9 @@
 }
 
 .header_left_container_back_image {
+    background-image: url('project://database/Assets/Sprites/Back.png?fileID=5000927251509650613&guid=1549192c15314dc4a87a572a07ce639a&type=3#Back_0');
+    width: 200%;
+    height: 100%;
 }
 
 .photomunu_background {
@@ -78,4 +86,66 @@
     align-self: center;
     flex-grow: 1;
     font-size: 60px;
+}
+
+.mainmenu_field {
+    background-color: rgb(69, 197, 60);
+    height: 85%;
+    width: 96%;
+    flex-grow: 1;
+    align-self: center;
+    max-height: 85%;
+    min-height: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(255, 215, 0);
+    border-right-color: rgb(255, 215, 0);
+    border-top-color: rgb(255, 215, 0);
+    border-bottom-color: rgb(255, 215, 0);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.mainmenu_camera_display {
+    flex-grow: 0;
+    border-left-color: rgb(40, 255, 0);
+    border-right-color: rgb(40, 255, 0);
+    border-top-color: rgb(40, 255, 0);
+    border-bottom-color: rgb(40, 255, 0);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    align-self: center;
+    align-items: stretch;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 1, 1);
+}
+
+.mainmenu_camera_container {
+    background-color: rgb(137, 59, 122);
+    align-self: center;
+    width: 100%;
+    height: 60%;
+    max-height: 60%;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: space-between;
+    -unity-text-align: upper-left;
+    margin-top: 0;
+    min-height: 50%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }

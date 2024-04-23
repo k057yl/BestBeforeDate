@@ -6,6 +6,7 @@ namespace UI.Base
 {
     public class ScreenBase : IScreen
     {
+        [Inject]
         protected ScreenController _screenController;
         
         protected VisualElement _rootElement;
