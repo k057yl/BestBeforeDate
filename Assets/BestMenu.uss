@@ -113,7 +113,7 @@
 }
 
 .mainmenu_camera_display {
-    flex-grow: 0;
+    flex-grow: 1;
     border-left-color: rgb(40, 255, 0);
     border-right-color: rgb(40, 255, 0);
     border-top-color: rgb(40, 255, 0);
@@ -128,24 +128,96 @@
     border-bottom-left-radius: 25px;
     align-self: center;
     align-items: stretch;
-    width: 50%;
+    width: 96%;
     height: 50%;
     background-color: rgb(255, 1, 1);
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .mainmenu_camera_container {
     background-color: rgb(137, 59, 122);
     align-self: center;
-    width: 100%;
+    width: 96%;
     height: 60%;
     max-height: 60%;
     flex-grow: 1;
     align-items: stretch;
     justify-content: space-between;
     -unity-text-align: upper-left;
-    margin-top: 0;
+    margin-top: 20px;
     min-height: 50%;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.mainmmenu_field_button_panel {
+    flex-direction: row;
+    align-self: center;
+}
+
+.mainmmenu_field_button_panel_button {
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    -unity-text-align: middle-center;
+    background-color: rgb(255, 196, 0);
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.confirmationmenu_background {
+    background-color: rgb(125, 137, 90);
+}
+
+.confirmationmenu_options {
+    align-self: center;
+    flex-grow: 1;
+    width: 80%;
+    height: 50%;
+    min-height: 50%;
+    max-height: 50%;
+    justify-content: flex-start;
+    align-items: stretch;
+    top: 25%;
+    bottom: auto;
+    max-width: 80%;
+}
+
+.confirmationmenu_options_container {
+    background-color: rgb(135, 156, 108);
+    align-self: center;
+    width: 80%;
+    height: 25%;
+    max-height: 25%;
+    min-height: 25%;
+    top: 70%;
+    flex-direction: row;
 }

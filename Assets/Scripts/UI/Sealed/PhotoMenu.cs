@@ -28,8 +28,7 @@ namespace UI.Sealed
             _leftHeaderContainerButtonBack.RegisterCallback<ClickEvent>(e =>
             {
                 _screenController.HideCurrentScreen();//**********
-                _screenController.ShowScreen(ScreenName.Main);
-                Debug.Log("Main");
+                _screenController.ShowScreen(ScreenName.Main); ;
             });
             
             _leftHeaderContainerButtonExit.RegisterCallback<ClickEvent>(e =>

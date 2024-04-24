@@ -17,5 +17,6 @@ public class GlobalInstaller : MonoInstaller
 
         Container.Bind<IScreen>().WithId(ScreenName.Main.ToString()).To<MainMenu>().AsSingle().NonLazy();
         Container.Bind<IScreen>().WithId(ScreenName.Photo.ToString()).To<PhotoMenu>().AsSingle().NonLazy();
+        Container.Bind<IScreen>().WithId(ScreenName.Save.ToString()).To<SaveMenu>().AsSingle().NonLazy();
     }
 }
